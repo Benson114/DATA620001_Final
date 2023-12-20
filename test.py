@@ -24,7 +24,7 @@ model = LanguageIdentificationModel()
 model.load_state_dict(torch.load('./model/LanguageIdentificationModel_003.pt'))
 
 # %%
-test_path = glob.glob("../test_data/*.npy")
+test_path = glob.glob("./data/test_data/*.npy")
 test_results = []
 for path in tqdm(test_path):
     mel_spectrogram = np.load(path)

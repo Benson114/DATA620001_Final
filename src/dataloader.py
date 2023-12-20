@@ -13,8 +13,8 @@ from torch.utils.data import DataLoader, TensorDataset
 
 # 读取数据集
 def load_data():
-    zh_path = glob.glob("../train_data/language_0/*.npy")
-    en_path = glob.glob("../train_data/language_1/*.npy")
+    zh_path = glob.glob("./data/train_data/language_0/*.npy")
+    en_path = glob.glob("./data/train_data/language_1/*.npy")
 
     # 梅尔频谱
     mel_spectrogram = []
