@@ -8,16 +8,16 @@ from tqdm import tqdm
 from src.model import LanguageIdentificationModel
 
 # %%
-df = pd.read_csv('./test.csv')
-"""
-df.head()
-            file  label
-0  test_0001.npy    NaN
-1  test_0002.npy    NaN
-2  test_0003.npy    NaN
-3  test_0004.npy    NaN
-4  test_0005.npy    NaN
-"""
+# df = pd.read_csv('./test.csv')
+# """
+# df.head()
+#             file  label
+# 0  test_0001.npy    NaN
+# 1  test_0002.npy    NaN
+# 2  test_0003.npy    NaN
+# 3  test_0004.npy    NaN
+# 4  test_0005.npy    NaN
+# """
 
 # %%
 model = LanguageIdentificationModel()
