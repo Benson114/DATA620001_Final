@@ -1,0 +1,6 @@
+**/__pycache__/
+.idea/
+.git/
+model/*
+!model/
+console_output/
