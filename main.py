@@ -11,7 +11,7 @@ uniform(mel_spectrogram)
 load_kwargs = {
     'valid_size': 0.2,
     'batch_size': 128,
-    'random_state': 42
+    'random_state': 114514
 }
 train_loader, valid_loader = split_data(mel_spectrogram, labels, **load_kwargs)
 print("数据集加载完成.")

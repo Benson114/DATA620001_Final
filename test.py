@@ -21,7 +21,7 @@ from src.model import LanguageIdentificationModel
 
 # %%
 model = LanguageIdentificationModel()
-model.load_state_dict(torch.load('./model/LanguageIdentificationModel_003.pt'))
+model.load_state_dict(torch.load('./model/LanguageIdentificationModel_005.pt'))
 
 # %%
 test_path = glob.glob("./data/test_data/*.npy")
@@ -49,4 +49,4 @@ for path in tqdm(test_path):
 
 # %%
 test_results = pd.DataFrame(test_results, columns=['file', 'label'])
-test_results.to_csv('./test.csv', index=False)
+test_results.to_csv('./test_005.csv', index=False)

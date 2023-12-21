@@ -10,6 +10,9 @@ import torch.optim as optim
 
 
 def fit(model, train_data, valid_data, epochs, learning_rate, device):
+    # 设置随机种子
+    # torch.manual_seed(3407)
+
     # 定义损失函数和优化器
     criterion = torch.nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=learning_rate)
