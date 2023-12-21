@@ -49,4 +49,4 @@ for path in tqdm(test_path):
 
 # %%
 test_results = pd.DataFrame(test_results, columns=['file', 'label'])
-test_results.to_csv('./test_005.csv', index=False)
+test_results.to_csv('./test.csv', index=False)
