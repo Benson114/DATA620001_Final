@@ -4,10 +4,10 @@
 .git/
 
 data/*
-!data/
+!data/.gitkeep
 
 model/*
-!model/
+!model/.gitkeep
 
 *.csv
 *.pdf
